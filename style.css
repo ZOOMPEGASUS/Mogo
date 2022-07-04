@@ -186,5 +186,37 @@ z-index:1;
 top:-3px;
 left:0;
 position: absolute;
-
 }
+.section{
+    padding: 80px 0;
+}
+.section_header{
+    text-align: center;
+}
+.section_suptitle {
+    font-family: 'Kaushan script';
+    font-size: 24pt;
+    font-weight: 100;
+}
+.section_title   {
+    text-transform: uppercase;
+    font-size: 30pt;
+    padding-top: 15px;
+    
+}
+.section_title:after{
+    
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px auto 40px;
+}
+.section_text{
+    font-size: 15px;
+    color: #c7c7c7;
+    font-weight: 300;
+    }
